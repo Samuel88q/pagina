@@ -1,0 +1,8 @@
+.store_icons a{position:relative;display:inline-block}
+.store_icons .hide_qr{display:none;position:absolute;right:100%;top:50%;transform:translateY(-50%);margin-right:12px;background:#161616;padding:14px;width:240px;max-width:calc(100vw - 40px);z-index:20}
+.store_icons .hide_qr p{font-size:12px;line-height:1.25;margin:0 0 10px 0}
+.store_icons .hide_qr #qrcode_ios,.store_icons .hide_qr #qrcode_android{display:flex;justify-content:center}
+.store_icons .hide_qr canvas,.store_icons .hide_qr img{width:180px!important;height:180px!important;max-width:180px;max-height:180px}
+.store_icons a:hover .hide_qr{display:block}
+.qr_icon{background:#161616;border-radius:10px;padding:10px;display:flex;align-items:center;justify-content:center}
+.qr_icon canvas,.qr_icon img{width:91px!important;height:91px!important}
